@@ -43,7 +43,7 @@ function levelup(){
 
     // flash random btn again and again make a function
 
-    let ran=Math.floor(Math.random()*3);
+    let ran=Math.floor(Math.random()*3)+1;
     let rancol=btns[ran];
     let ranbtn=document.querySelector(`.${rancol}`);
     gameseq.push(rancol);
